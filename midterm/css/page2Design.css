@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Advent Pro');
+
+body{
+  font-family: 'Advent Pro', sans-serif;
+	padding-top: 150px;
+  height: 1200px;
+  width: 75%;
+  margin: auto;
+  background-image: url("../images/waterfall.gif");
+  box-sizing: border-box;
+}
+
+#header{
+	width: 101%;
+	height: 140px;
+	background-color: gold;
+	text-align: center;
+	position: relative;
+	position: fixed;
+	top: 0;
+  left: -1px;
+	overflow: hidden;
+  z-index: 1;
+}
+
+#banner1 {
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 3em;
+  color: black;
+  position: relative;
+  right: 27%;
+  bottom: 20px;
+  line-height: 30px;
+}
+
+#banner2 {
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 2em;
+  color: black;
+  position: relative;
+  right: 26%;
+  bottom: 40px;
+  line-height: 30px;
+}
+
+#content-background {
+  background-color:	#F0F8FF;
+  padding: 40px;
+  z-index: 0;
+}
+
+h1{
+  margin-top: 30px;
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 2.2em;
+  color: black;
+  letter-spacing: 0.04em;
+}
+  
+#nav-background {
+		position: absolute;
+		bottom: 0;
+		height: 40px;
+		width: 100%;
+    background-color: black;
+}  
+  
+  
+#navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+		text-align: center;
+		position: relative;
+		bottom: 0;
+    left: 12%;
+		height: 40px;
+		width: 60%;
+    background-color: black;
+}
+
+.buutons {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  line-height: 8px;
+  width: 80%;
+  background-color: #878787;
+  margin: 0px 35px;
+}
+
+.buttons:hover {
+  background-color: #a8aaad;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
+
+.buttons p, a {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.15em;
+  font-weight: normal;
+}
+
+.description {
+  white-space: wrap;
+}
+
+
+
+#wf2{
+  width: 350px;
+  float: right;
+  margin: 0px 60px 40px 40px;
+}
+
+#wf3{
+  width: 200px;
+  float: left;
+  margin: 0px 40px 20px 20px;
+} 
+
+h2 {
+  position: relative;
+  bottom: 20px;
+}
+
+#info {
+  position: relative;
+  bottom: 20px;
+}
+
+aside {
+  float: right;
+  border: 2px black solid;
+  padding: 4px;
+  width: 160px;
+  background-color: white;
+  text-align: left;
+  margin: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
+
+aside h3 {
+  text-align: center;
+  margin-top: 8px;
+}
+
+#footer-block {
+  margin: 100px auto 0px auto;
+  text-align: center;
+  color: black;
+  height: 20px;
+}
+
+#footerp {
+  font-size: .7em;
+}
+
+
+
